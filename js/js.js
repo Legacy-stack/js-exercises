@@ -1,3 +1,5 @@
-var longitudArreglo = colores.length; //Longitud de mi arreglo
-                    colores[longitudArreglo] = "purpura";
-                    document.write(colores);
+
+
+for(i=1;i<=10;i++) {
+    document.write("Hola Mundo" + "<br>");
+}
