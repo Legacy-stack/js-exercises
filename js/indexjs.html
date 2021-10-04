@@ -7,19 +7,20 @@
     <title>Variables JS</title>
 </head>
 <body>
-    //lista
-    <ol id="lista">
-        <li>Elemento N1</li>
-        <li>Elemento N2</li>
-   </ol>
+    
     <script>
-        var lista = document.createElement("li");
-          var contenido = document.createTextNode("Elemento N3");
-          lista.appendChild(contenido);
+        (function() {
+               
+               var holaMundo = function () {
+                    console.log("Hola mundo!");
+               }
 
- 
-          var contenedor = document. getElementById("lista");
-          contenedor.appendChild(lista);
+               var boton = document.getElementById("boton");
+               boton.addEventListener("click", holaMundo);
+
+          }())
+
+          
     </script>
 </body>
 </html>
