@@ -20,7 +20,17 @@
 
           }())
 
-          
+          (function() {
+               
+               var holaMundo = function () {
+                    console.log("Mi input cambio");
+               }
+
+               var input = document.getElementById("input");
+               input.addEventListener("click", holaMundo);
+
+          }())
+
     </script>
 </body>
 </html>
