@@ -31,6 +31,19 @@
 
           }())
 
+          (function() {
+               
+               var holaMundo = function (e) {
+                    console.log("El evento que se esta ejecutando es: " + e.target);
+                    e.preventDefault();
+               }
+
+               var boton = document.getElementById("boton");
+               boton.addEventListener("click", holaMundo);
+
+          }())
+
+
     </script>
 </body>
 </html>
