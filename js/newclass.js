@@ -31,10 +31,25 @@ var edad; // y ya, así solo está almacenando un nombre, pero está undefined. 
 edad = 23;
 
 //variables complejas o TIPO OBJETO. Se pueden almacenar diferentes propiedades, en este caso son diferentes propiedades de la variable "persona"
+// las propiedades de persona son "nombre, apellido y edad", y los valores "Ruth, Moya y 37"
 
 var persona = {
     nombre: "Ruth",
     apellido: "Moya",
     edad: 37
-}
+};
+
+//ARRAY. Puede almacenar valores y también objetos(que a su vez contengan valores)
+
+var amigos = ["Victor", "Paula", "Juan", "Raquel"];
+var edades = [24, 21, 25, 19];
+
+var amigos = [
+    {nombre: "Victor", edad: 24},
+    {nombre: "Paula", edad: 21},
+    {nombre: "Juan", edad: 25},
+    {nombre: "Raquel", edad: 19}
+]
+
+//FUNCIONES
 
