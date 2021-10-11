@@ -28,3 +28,17 @@ function calPares() {
     }
     document.getElementById("text").innerHTML = resultado;
 }
+
+//Mouse over
+
+function changeBackgroundColor(position) {
+    if (position === 1) {
+        document.getElementById("fatherbox").style.backgroundColor = "rgb(41, 217, 223)";
+    }else if(position === 2) {
+        document.getElementById("fatherbox").style.backgroundColor = "rgb(236, 60, 213)";
+    }else{
+        document.getElementById("fatherbox").style.backgroundColor = "";
+    }
+
+
+}
