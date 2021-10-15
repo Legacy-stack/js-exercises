@@ -42,3 +42,9 @@ function changeBackgroundColor(position) {
 
 
 }
+
+function convert() {
+    const dolarValue = document.getElementById("dolar").value;
+    const result = dolarValue * 0.80;
+    document.getElementById("result").innerHTML = result;
+}
